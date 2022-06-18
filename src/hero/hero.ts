@@ -1,7 +1,7 @@
 import { Vector2D } from "../utils/vector";
 import { Weather } from "../weather/weather";
 import "p5";
-import { Environemnt } from "environment/environment";
+import { Environemnt } from "../environment/environment";
 
 export class Hero {
   //private sprite;
@@ -30,9 +30,9 @@ export class Hero {
     }
   }
 
-  public jump() {}
+  public jump() { }
 
-  public pickUp() {}
+  public pickUp() { }
 
   public update(weather: Weather) {
     const speed = this.handleKeyDown();

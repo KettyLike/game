@@ -3,7 +3,7 @@ import { Wind } from "./wind";
 import "p5";
 import { Vector2D } from "utils/vector";
 import { Precipitation } from "./precipitation";
-import { Environemnt } from "environment/environment";
+import { Environemnt } from "../environment/environment";
 
 export class WeatherProvider {
   private windDirection: Vector2D = new Vector2D(1, 0);

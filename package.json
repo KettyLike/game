@@ -9,7 +9,7 @@
     "p5": "^1.4.1"
   },
   "scripts": {
-    "start": "parcel index.html --open data/*",
+    "start": "parcel index.html --open data",
     "build": "parcel build index.html"
   },
   "devDependencies": {

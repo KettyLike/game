@@ -1,7 +1,7 @@
 import "p5";
-import { Environemnt } from "environment/environment";
-import { WeatherProvider } from "weather/weatherProvider";
-import { Hero } from "hero/hero";
+import { Environemnt } from "./environment/environment";
+import { WeatherProvider } from "./weather/weatherProvider";
+import { Hero } from "./hero/hero";
 
 const hero = new Hero(Environemnt.worldSizeX / 2, Environemnt.worldSizeY * 0.9);
 const environment = new Environemnt(hero);
